@@ -1,0 +1,16 @@
+site_name: 튜토리얼
+
+pages:
+    - 홈: index.md
+    - 사용법: how.md
+    - 세부사용법:
+        - '테마': 'guide/theme.md'
+        - '구조': 'guide/tree.md'
+
+theme: readthedocs
+
+markdown_extensions:
+  - footnotes
+
+markdown_extensions:
+  - admonition
